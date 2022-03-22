@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom';
 import React from 'react';
 import './index.css';
-
+// this is the Board Class
 class Board extends React.Component {
     handleBoxClick(i){
         this.props.handlerForBoxClick(i);
@@ -42,7 +42,7 @@ class Board extends React.Component {
         );
     }
 }
-
+// This is Display Class
 class Display extends React.Component {
     render() {
         let gameTitle = null;
@@ -85,7 +85,7 @@ class Display extends React.Component {
         );
     }
 }
-
+// This is the TTT Class git 
 class TTT extends React.Component {
     constructor(props){
         super(props);
